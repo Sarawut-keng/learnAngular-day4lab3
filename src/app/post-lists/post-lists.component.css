@@ -24,3 +24,13 @@ h4, p {
 	transform: translateY(-1px);
 	background-color: teal;
 }
+.form {
+	display: flex;
+	flex-wrap: wrap;
+}
+.form h3 {
+	padding-bottom: 10px;
+}
+.form > * {
+	flex: 1 1 100%;
+}
