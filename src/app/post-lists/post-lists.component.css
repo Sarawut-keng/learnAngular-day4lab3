@@ -1,0 +1,26 @@
+h4, p {
+	margin: 0;
+}
+.container {
+	width: 100vw;
+	height: auto;
+	justify-content: center;
+	display: flex;
+	background-color: #21314e;
+}
+.box {
+	width: 500px;
+}
+.card {
+	margin: 20px 0px;
+	padding: 16px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+	transition: all 0.2s;
+}
+.card:hover {
+	color: white;
+	transform: translateY(-1px);
+	background-color: teal;
+}
